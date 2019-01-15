@@ -1,0 +1,18 @@
+uuid: 9054ea7b-67c5-43ae-931b-bb12a5e8f073
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'add mailfish entities'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view media'

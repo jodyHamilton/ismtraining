@@ -1,0 +1,34 @@
+# MailFish routing definition
+mailfish.settings_tab:
+  route_name: mailfish.settings
+  title: 'Settings'
+  base_route: mailfish.settings
+
+entity.mailfish.canonical:
+  route_name: entity.mailfish.canonical
+  base_route: entity.mailfish.canonical
+  title: 'View'
+
+entity.mailfish.edit_form:
+  route_name: entity.mailfish.edit_form
+  base_route: entity.mailfish.canonical
+  title: 'Edit'
+
+entity.mailfish.delete_form:
+  route_name:  entity.mailfish.delete_form
+  base_route:  entity.mailfish.canonical
+  title: Delete
+  weight: 10
+
+mailfish.csv:
+  route_name: mailfish.csv
+  base_route: entity.mailfish.collection
+  title: CSV
+
+entity.mailfish.collection:
+  route_name: entity.mailfish.collection
+  base_route: entity.mailfish.collection
+  title: List
+
+
+

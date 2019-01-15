@@ -1,0 +1,5 @@
+entity.mailfish.add_form:
+  route_name: entity.mailfish.add_form
+  title: 'Add MailFish'
+  appears_on:
+    - entity.mailfish.collection

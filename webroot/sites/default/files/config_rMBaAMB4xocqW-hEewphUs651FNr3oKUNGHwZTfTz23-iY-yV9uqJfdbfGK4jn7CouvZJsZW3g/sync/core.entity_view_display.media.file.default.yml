@@ -1,0 +1,33 @@
+uuid: 1ea26a25-565d-40b6-acbb-42ddae636ffa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.file.field_media_file
+    - media.type.file
+  module:
+    - viewerjs
+_core:
+  default_config_hash: 9s0lWIanCnW5Xrrkmedxohs9F0yk4LO8ZcmVQ9xyuu4
+id: media.file.default
+targetEntityType: media
+bundle: file
+mode: default
+content:
+  field_media_file:
+    label: visually_hidden
+    settings:
+      link_type: overlay
+      template: index.html
+      overlay_size: 1000x500
+      preview_max_size: 1000x700
+      max_image_size: viewerjs
+    third_party_settings: {  }
+    type: viewerjs
+    weight: 1
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

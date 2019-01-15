@@ -1,0 +1,8 @@
+uuid: 8b87899d-ef14-4424-9c51-43b83c580a2c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jldU0MEN2_FGmWqPuubwnteJjI6Rc1iQN4VoXkvLLOs
+id: basic
+label: 'Basic workspace'

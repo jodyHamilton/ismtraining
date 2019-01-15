@@ -1,0 +1,33 @@
+uuid: 2986067c-e262-42c2-9f33-27173648c91d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__news_block_2
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:news-block_2'
+settings:
+  id: 'views_block:news-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

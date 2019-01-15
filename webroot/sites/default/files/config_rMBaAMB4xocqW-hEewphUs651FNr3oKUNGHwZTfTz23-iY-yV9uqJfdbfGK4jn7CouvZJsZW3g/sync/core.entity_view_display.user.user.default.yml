@@ -1,0 +1,45 @@
+uuid: 64a3627a-af42-413d-b3f4-fc3f1f5f294b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_social_sites
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - layout_builder
+    - mailfish
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_social_sites:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: mailfish_social_link
+    region: content
+  member_for:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden: {  }

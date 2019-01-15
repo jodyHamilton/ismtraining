@@ -1,0 +1,25 @@
+name: ismtraining
+type: theme
+description: 'My Awesome theme'
+package: Other
+core: 8.x
+libraries:
+  - ismtraining/global-styling
+ 
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  header: header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  highlighted: Highlighted
+  help: Help
+  content: content
+  sidebar_first: Sidebar first
+  sidebar_second: Sidebar second
+  footer: footer
+  breadcrumb: Breadcrumb
+  user_nav: User Navigation
+
+

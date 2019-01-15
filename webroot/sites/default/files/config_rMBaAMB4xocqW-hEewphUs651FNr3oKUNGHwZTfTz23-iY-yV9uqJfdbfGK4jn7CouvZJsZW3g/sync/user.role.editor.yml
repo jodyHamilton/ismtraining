@@ -1,0 +1,26 @@
+uuid: fa3dc5c0-030a-4c2d-b46e-784d2a588925
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: -7
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'administer nodes'
+  - 'create article content'
+  - 'create page content'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition publish'
+  - 'view any unpublished content'
+  - 'view article revisions'
+  - 'view latest version'
+  - 'view page revisions'

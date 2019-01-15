@@ -1,0 +1,335 @@
+/* ---------- Color Module Styles ----------- */
+body,
+#page-wrapper {
+  background-color: #a79a86;
+  color: #605f5c;
+}
+
+#main,
+body.overlay {
+  background-color: #ffffff;
+  color: #605f5c;
+}
+
+#page,
+.region-menubar .menu-item--active-trail a {
+  /* bg */
+  background-color: #ffffff;
+}
+
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background-color: #ffffff;
+}
+
+.tabs ul.secondary li a,
+.tabs ul.primary li a {
+  border-color: #e5dec7;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  background-color: #ffffff;
+}
+
+.tabs ul.secondary li a.active:hover,
+.tabs ul.secondary li a:hover,
+.tabs ul.primary li a.active:hover,
+.tabs ul.primary li a:hover {
+  background-color: #dfddd8;
+}
+
+.tabs ul.secondary li.active a,
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-color: #e5dec7;
+}
+
+.tabs ul.secondary li {
+  border-color: #e5dec7;
+}
+
+#header {
+  background-color: #886d49;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5OTMwMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkZmY2MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #886d49), color-stop(100%, #b3ac8f));
+  background-image: -moz-linear-gradient(left, #886d49, #b3ac8f);
+  background-image: -webkit-linear-gradient(left, #886d49, #b3ac8f);
+  background-image: linear-gradient(to right, #886d49, #b3ac8f);
+  border-color: #ffffff;
+}
+
+a.visited,
+a {
+  color: #9a6f13;
+}
+
+a:hover,
+a:focus {
+  color: #8f680b;
+}
+
+a:active {
+  color: #8f680b;
+}
+
+li a.active {
+  /* important! */
+  color: #605f5c;
+}
+
+.column-block,
+.sidebar .block {
+  background-color: #e7e3df;
+  border-color: #e7e3df;
+  color: #59544a;
+}
+
+.column-block h2,
+.sidebar h2 {
+  border-bottom-color: #ada585;
+  color: #59544a;
+}
+
+.column-block a,
+.sidebar a {
+  color: #985901;
+}
+
+.column-block table tr th,
+.sidebar .block table tr th {
+  border-color: #ada585;
+  border-color: #e7e3df;
+  border-color: #ada585;
+}
+
+.node {
+  background-color: #fefefe;
+  border-color: #e0ddd6;
+}
+
+.node h2 {
+  /* nodedividers */
+  border-color: #c3b898;
+}
+
+.node--sticky {
+  background-color: #e7e3df;
+}
+
+.node .submitted {
+  color: #908f8d;
+}
+
+#menubar
+ {
+  border-bottom-color: #e5dec7;
+}
+
+#menubar ul li {
+  border-right-color: #e5dec7;
+  color: #605f5c;
+}
+
+#menubar ul li.last {
+  border-right: none;
+}
+
+.highlight {
+  background-color: #dfddd8;
+}
+
+div.item-list ul.pager li a:hover,
+#menubar ul li a:hover {
+  background-color: #dfddd8;
+}
+
+.page-title {
+  background-color: #8e8367;
+  color: #efe8cd;
+}
+
+#content .block h2 {
+  /* main content: block title */
+  background-color: #8e8367;
+  color: #efe8cd;
+}
+
+#content .node h2 {
+  /* main content: block title */
+  background-color: transparent;
+  color: #605f5c;
+}
+
+#content .node--sticky h2 {
+  /* main content: block title */
+  background-color: transparent;
+}
+
+#footer-wrapper {
+  background-color: #544e3b;
+  color: #dedac4;
+}
+
+#footer-wrapper a {
+  color: #c49821;
+}
+
+#footer-wrapper .column-block {
+  background-color: #544e3b;
+  color: #dedac4;
+}
+
+#footer-wrapper .column-block h2 {
+  border: none;
+  color: #dedac4;
+}
+
+#footer-wrapper .column-block a {
+  color: #c49821;
+}
+
+#footer {
+  background-color: #544e3b;
+  color: #dedac4;
+}
+
+#footer a {
+  color: #c49821;
+}
+
+.region-header,
+.region-header a,
+.region-header li a.active,
+#header #name-and-slogan,
+#header #name-and-slogan a {
+  color: #e2dcd4;
+}
+
+form fieldset {
+  border: solid 1px #e5dec7;
+}
+
+blockquote {
+  border-color: #c3b898;
+}
+
+/*-------------- Additional for dark colors --------------*/
+.filter-wrapper {
+  background-color: #ffffff;
+}
+
+.comment {
+  background-color: #fefefe;
+  border-color: #e0ddd6;
+}
+
+.comment h3 {
+  border-color: #c3b898;
+}
+
+.comment-unpublished {
+  background-color: #fefefe;
+}
+
+.comment .submitted {
+  color: #908f8d;
+}
+
+table.views-view-grid tr {
+  background-color: #ffffff;
+}
+
+td.views-field {
+  background-color: #ffffff;
+}
+
+table tr th {
+  background-color: #c3bba2;
+  border-right-color: #ffffff;
+}
+
+fieldset {
+  border-color: #c3b898;
+  /* nodedivider color */
+}
+
+tr.even,
+tr.even td {
+  background-color: #f0f0f0;
+}
+
+tr.odd,
+tr.odd td {
+  background-color: #fefefe;
+}
+
+tr.even td.active,
+tr.odd td.active {
+  background-image: url(/themes/contrib/mayo/images/dark.png);
+}
+
+.profile .user-picture {
+  background-color: #ffffff;
+}
+
+.column-block table tr td,
+.sidebar .block table tr td {
+  border-color: #ada585;
+}
+
+.column-block table tr.even td,
+.column-block table tr.odd td,
+.sidebar .block table tr.even td,
+.sidebar .block table tr.odd td {
+  /* sidebar table does not have regular table even/odd row background */
+  background-color: #e7e3df;
+}
+
+/*-------------- nice_menus color ---------------*/
+.nice-menu a, .nice-menu a:active, .nice-menu a:visited, .nice-menu a:focus {
+  color: #9a6f13;
+}
+
+ul.nice-menu li.menuparent a {
+  /* root menu item that has drop down menu */
+  background-color: #ffffff;
+}
+
+ul.nice-menu li a {
+  /* root menu item that has no drop down menu */
+  background-color: #ffffff;
+  border-right-color: #e5dec7;
+}
+
+ul.nice-menu li.menuparent a:hover,
+ul.nice-menu li a:hover {
+  /* root menu item hover color */
+  background-color: #dfddd8;
+}
+
+ul.nice-menu li.last ul li a,
+ul.nice-menu li ul li a,
+ul.nice-menu li ul li.last a {
+  /* drop down menu items */
+  border-color: #e5dec7;
+}
+
+ul.nice-menu li ul li.menuparent {
+  /* drop down menu items that has child menu */
+  background-color: #ffffff;
+}
+
+ul.nice-menu li.menuparent li {
+  /* drop down menu items that has no child menu */
+  background: none;
+  background-color: #ffffff;
+}
+
+ul.nice-menu li.menuparent li:hover {
+  background: none;
+  background-color: #dfddd8;
+}
+
+ul.nice-menu li ul {
+  border: solid 1px #e5dec7;
+}

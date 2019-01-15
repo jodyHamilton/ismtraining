@@ -1,0 +1,4 @@
+name: jj-training
+recipe: drupal8
+config:
+  webroot: webroot

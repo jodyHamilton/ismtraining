@@ -1,0 +1,18 @@
+mailfish.signup:
+  title: 'Sign Up'
+  menu_name: main
+  description: 'Subscribe to our mailing list.'
+  route_name: mailfish.signup
+# MailFish menu items definition
+entity.mailfish.collection:
+  title: 'MailFish list'
+  route_name: entity.mailfish.collection
+  description: 'List MailFish entities'
+  parent: system.admin_structure
+  weight: 100
+
+mailfish.admin.structure.settings:
+  title: 'MailFish settings'
+  description: 'Configure MailFish entities'
+  route_name: mailfish.settings
+  parent: system.admin_structure

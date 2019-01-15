@@ -1,0 +1,19 @@
+add mailfish entities:
+  title: 'Create new MailFish entities'
+
+administer mailfish entities:
+  title: 'Administer MailFish entities'
+  description: 'Allow to access the administration form to configure MailFish entities.'
+  restrict access: true
+
+delete mailfish entities:
+  title: 'Delete MailFish entities'
+
+edit mailfish entities:
+  title: 'Edit MailFish entities'
+
+view published mailfish entities:
+  title: 'View published MailFish entities'
+
+view unpublished mailfish entities:
+  title: 'View unpublished MailFish entities'

@@ -1,0 +1,15 @@
+mailfish.signup:
+  path: '/mailfish-signup'
+  defaults:
+    _controller: '\Drupal\mailfish\Controller\SignupController::view'
+    _title: 'Sign Up'
+  requirements:
+    _permission: 'access content'
+
+mailfish.csv:
+  path: '/admin/structure/mailfish/csv'
+  defaults:
+    _controller: '\Drupal\mailfish\Controller\CSVController::view'
+    _title: 'CSV Export'
+  requirements:
+    _permission: 'view published mailfish entities'

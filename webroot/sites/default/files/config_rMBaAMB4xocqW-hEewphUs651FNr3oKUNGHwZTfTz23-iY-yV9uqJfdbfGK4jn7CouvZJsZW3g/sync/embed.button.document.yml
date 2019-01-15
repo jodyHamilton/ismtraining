@@ -1,0 +1,22 @@
+uuid: a2608800-d56c-49fb-99f3-90303f1728ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.file
+  module:
+    - entity_embed
+    - media
+label: Document
+id: document
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - file
+  display_plugins:
+    - 'view_mode:media.full'
+  entity_browser: ''
+  entity_browser_settings:
+    display_review: false
+icon_uuid: null

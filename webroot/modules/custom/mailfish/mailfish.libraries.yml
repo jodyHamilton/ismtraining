@@ -1,0 +1,7 @@
+user-time:
+  js:
+    js/user-time.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.cookie

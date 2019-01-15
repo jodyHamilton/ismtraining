@@ -1,0 +1,18 @@
+uuid: 9f5fc7ff-45f5-4bbe-87c7-5097c7f95dee
+langcode: en
+status: true
+dependencies: {  }
+id: contributor
+label: Contributor
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'create article content'
+  - 'create page content'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition create_new_draft'
+  - 'view any unpublished content'
+  - 'view latest version'

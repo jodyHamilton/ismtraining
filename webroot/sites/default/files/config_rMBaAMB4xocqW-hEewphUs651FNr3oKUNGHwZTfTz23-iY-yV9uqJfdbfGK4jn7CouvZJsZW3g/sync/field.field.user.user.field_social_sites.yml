@@ -1,0 +1,23 @@
+uuid: f72552ce-4333-4b46-8448-6caa78fa8125
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_social_sites
+  module:
+    - link
+    - user
+id: user.user.field_social_sites
+field_name: field_social_sites
+entity_type: user
+bundle: user
+label: 'Social Sites'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

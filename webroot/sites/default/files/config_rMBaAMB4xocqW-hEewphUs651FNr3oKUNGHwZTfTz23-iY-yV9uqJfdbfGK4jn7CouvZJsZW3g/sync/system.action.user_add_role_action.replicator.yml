@@ -1,0 +1,14 @@
+uuid: efee92ee-94b9-4326-8d78-d4c038a49cd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.replicator
+  module:
+    - user
+id: user_add_role_action.replicator
+label: 'Add the Replicator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: replicator

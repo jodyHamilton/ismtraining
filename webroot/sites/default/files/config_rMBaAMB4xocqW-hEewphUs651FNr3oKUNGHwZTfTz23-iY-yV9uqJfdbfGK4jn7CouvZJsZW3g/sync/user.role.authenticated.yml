@@ -13,6 +13,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'add mailfish entities'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'

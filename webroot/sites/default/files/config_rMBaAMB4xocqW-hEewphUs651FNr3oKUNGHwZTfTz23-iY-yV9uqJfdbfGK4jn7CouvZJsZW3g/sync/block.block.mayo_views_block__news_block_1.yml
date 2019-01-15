@@ -1,4 +1,4 @@
-uuid: 2986067c-e262-42c2-9f33-27173648c91d
+uuid: cb635af6-8e92-493d-8ddd-8ad03d639409
 langcode: en
 status: true
 dependencies:
@@ -8,21 +8,20 @@ dependencies:
     - ctools
     - views
   theme:
-    - bartik
-id: views_block__news_block_2
-theme: bartik
-region: content
-weight: -2
+    - mayo
+id: mayo_views_block__news_block_1
+theme: mayo
+region: sidebar_first
+weight: 0
 provider: null
-plugin: 'views_block:news-block_2'
+plugin: 'views_block:news-block_1'
 settings:
-  id: 'views_block:news-block_2'
-  label: ''
+  id: 'views_block:news-block_1'
+  label: 'Recent News'
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: 'Recent News'
   items_per_page: none
-  context_mapping: {  }
 visibility:
   'entity_bundle:node':
     id: 'entity_bundle:node'

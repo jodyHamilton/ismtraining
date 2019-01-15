@@ -1,0 +1,23 @@
+uuid: b8b637e4-ca22-433e-8ae8-597738816549
+langcode: en
+status: true
+dependencies:
+  module:
+    - mailfish
+id: mailfish.mailfish.default
+targetEntityType: mailfish
+bundle: mailfish
+mode: default
+content:
+  email:
+    type: email_default
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  name: true
+  status: true
+  user_id: true

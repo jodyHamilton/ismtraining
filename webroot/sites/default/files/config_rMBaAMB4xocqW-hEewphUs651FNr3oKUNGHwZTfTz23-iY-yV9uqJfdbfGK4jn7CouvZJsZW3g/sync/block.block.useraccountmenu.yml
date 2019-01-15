@@ -1,0 +1,24 @@
+uuid: fb95d92f-a2b6-42bd-a8f6-ef8af0eb7c38
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ismtraining
+id: useraccountmenu
+theme: ismtraining
+region: user_nav
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

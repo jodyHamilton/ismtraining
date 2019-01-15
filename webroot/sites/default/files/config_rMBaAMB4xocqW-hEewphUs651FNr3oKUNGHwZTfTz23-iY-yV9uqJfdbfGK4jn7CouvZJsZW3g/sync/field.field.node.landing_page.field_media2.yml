@@ -1,0 +1,32 @@
+uuid: 5bf87c49-b67b-467f-a7d4-8586cb511332
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media2
+    - media.type.file
+    - media.type.image
+    - media.type.remote_video
+    - node.type.landing_page
+id: node.landing_page.field_media2
+field_name: field_media2
+entity_type: node
+bundle: landing_page
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      file: file
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: file
+field_type: entity_reference

@@ -1,0 +1,12 @@
+attributes:
+  class:
+    label: ''
+    description: ''
+  container_id:
+    label: ''
+  target:
+    label: ''
+    description: ''
+    options:
+      _blank: 'New window (_blank)'
+      _self: 'Same window (_self)'

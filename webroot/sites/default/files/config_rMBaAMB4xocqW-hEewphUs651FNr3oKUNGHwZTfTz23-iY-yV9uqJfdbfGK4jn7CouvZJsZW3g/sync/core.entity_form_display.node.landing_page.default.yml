@@ -3,9 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_form_mode.media.media_library
+    - field.field.node.landing_page.field_media2
     - field.field.node.landing_page.field_sections
     - node.type.landing_page
   module:
+    - entity_browser_entity_form
+    - inline_entity_form
     - paragraphs
     - path
 id: node.landing_page.default
@@ -19,6 +23,24 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_media2:
+    type: inline_entity_form_complex
+    weight: 122
+    settings:
+      form_mode: media_library
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+      override_labels: false
+      collapsible: false
+      collapsed: false
+      allow_duplicate: false
+    third_party_settings:
+      entity_browser_entity_form:
+        entity_browser_id: media_entity_browser
+    region: content
   field_sections:
     type: entity_reference_paragraphs
     weight: 121
@@ -67,12 +89,9 @@ content:
       placeholder: ''
     third_party_settings: {  }
   uid:
-    type: entity_reference_autocomplete
+    type: options_select
     weight: 5
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+    settings: {  }
     region: content
     third_party_settings: {  }
 hidden: {  }

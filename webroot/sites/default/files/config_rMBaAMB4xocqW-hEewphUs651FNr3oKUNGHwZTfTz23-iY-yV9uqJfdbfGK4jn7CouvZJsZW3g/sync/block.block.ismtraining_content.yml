@@ -1,15 +1,15 @@
-uuid: 109456f9-30bc-4a7d-8339-f13b893d4d4d
+uuid: b9ff2e29-efb5-4d6a-a278-17e28003c830
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - ismtraining
 _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: bartik_content
-theme: bartik
+id: ismtraining_content
+theme: ismtraining
 region: content
 weight: -3
 provider: null

@@ -1,4 +1,4 @@
-uuid: 2986067c-e262-42c2-9f33-27173648c91d
+uuid: 9d8ffc84-4a0b-45a0-845d-9895507f6da2
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ dependencies:
     - ctools
     - views
   theme:
-    - bartik
-id: views_block__news_block_2
-theme: bartik
+    - ismtraining
+id: ismtraining_views_block__news_block_2
+theme: ismtraining
 region: content
 weight: -2
 provider: null

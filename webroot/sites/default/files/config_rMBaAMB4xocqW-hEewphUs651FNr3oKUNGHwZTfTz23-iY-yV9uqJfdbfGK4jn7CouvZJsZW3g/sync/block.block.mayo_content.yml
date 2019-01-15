@@ -1,15 +1,15 @@
-uuid: 109456f9-30bc-4a7d-8339-f13b893d4d4d
+uuid: e69cfbc3-d08c-4b2a-af0f-e78613b0e4d2
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - mayo
 _core:
   default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: bartik_content
-theme: bartik
+id: mayo_content
+theme: mayo
 region: content
 weight: -3
 provider: null

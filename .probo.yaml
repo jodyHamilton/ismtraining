@@ -1,0 +1,18 @@
+assets:
+  - mydb.sql
+image: proboci/ubuntu-14.04-lamp:php-7.0
+steps:
+  - name: Probo site setup
+    plugin: Drupal
+    drupalVersion: 8
+    database: mydb.sql
+    databaseGzipped: false
+    clearCaches: false
+    databaseUpdates: true
+    subDirectory: webroot
+  - name: Import config
+    command: "drush --root='/var/www/html/' config-import -y"
+  - name: Fix file permissions
+    command: 'chown -R www-data:www-data /var/www/html/sites/default/files'
+  - name: Clear cache
+    command: "drush --root='/var/www/html/' cr"
